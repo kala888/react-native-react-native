@@ -5,7 +5,7 @@ import TouchableOpacity from 'teaset/components/ListRow/TouchableOpacity'
 import NavigationService from '@/nice-router/navigation-service'
 import _ from 'lodash'
 import colors from '@/utils/colors'
-import ActionIcon from '../../conponents/action-icon'
+import ActionIcon from '../../components/action-icon'
 import ActionUtil from '@/nice-router/action-util'
 
 export default function NavigationLine(props) {

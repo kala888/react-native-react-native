@@ -11,7 +11,7 @@ import H5Page from '@/nice-router/h5.page'
 import NetworkErrorPage from '@/nice-router/network-error.page'
 import device from '@/nice-router/device'
 import { appInitial } from '@/service/app-initial'
-import ActionIcon from '../conponents/action-icon'
+import ActionIcon from '../components/action-icon'
 
 const Stack = createStackNavigator()
 

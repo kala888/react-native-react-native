@@ -4,7 +4,7 @@ import { Image, StyleSheet, Text } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 
 import device from './device'
-import ActionIcon from '../conponents/action-icon'
+import ActionIcon from '../components/action-icon'
 import colors from '@/utils/colors'
 
 const networkImage = require('./network.png')
