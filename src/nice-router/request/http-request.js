@@ -6,7 +6,7 @@ import LoadingAndLogsProcessor from '@/nice-router/request/loading-and-logs-proc
 import CustomProcessor from '@/nice-router/request/custom-processor'
 
 request.interceptors.request.use(OptionsProcessor)
-request.interceptors.request.use(AuthTokenProcessor)
+request.use(AuthTokenProcessor)
 request.use(LoadingAndLogsProcessor)
 request.use(CustomProcessor)
 

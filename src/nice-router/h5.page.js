@@ -37,8 +37,8 @@ export default function H5Page({ route, navigation }) {
     AuthTools.getTokenAsync().then((token = {}) => {
       setInjectJSContent(
         `(function() {
-        window.localStorage.setItem('token', '${token}');
-        window.localStorage.setItem('refer', 'native-app');
+        window.localStorage.setItem('TOKEN', '${token}');
+        window.localStorage.setItem('REFER', 'native-app');
       })();
        true;
       `
